@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+     }
+
+.architect {
+    border: 1px solid #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: #333; 
+    color: #ffffff; 
+}
+
+.h2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 600px; 
+}
+
+.h2-container h2 {
+    margin: 0; 
+    padding: 0 10px; 
+    color: #ffffff; 
+}
+
+.Architect {
+    display: flex;
+    position: relative;
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.Architect img {
+    max-width: 100%;
+    height: auto;
+}
+
+.arch-text {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.arch-text h1 {
+    margin: 0; 
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    
+   
+}
+.barnhouse,
+.brickhouse,
+.summerhouse,
+.renovated,
+.barnhouse1,
+.renovated1,
+.brickhouse1,
+.summerhouse1 {
+    display: flex;
+    position: relative;
+    
+}
+
+.barn-text,
+.brickhouse-text,
+.summerhouse-text,
+.renovated-text,
+.barnhouse1-text,
+.renovated1-text,
+.brickhouse1-text,
+.summerhouse1-text {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    color: white;
+    background-color: black; 
+    padding: 5px;
+    border-radius: 3px; 
+    font-size: 0.8rem; 
+    max-width: 90%; 
+    box-sizing: border-box;
+   
+}
+
+
+
+
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="architect">
+       <h1>B R A r c h i t e c t s</h1>
+       <div class="h2-container">
+           <h2>Projects</h2>
+           <h2>About</h2>
+           <h2>Contact</h2>
+       </div>
+    </div>
+
+    <h1>Project</h1>
+
+    <div class="Architect">
+        <img src="architect.jpg" alt="Architect">
+        <div class="arch-text">
+            <h1>B R</h1>
+            <b>A r c h i t e c t s</b>
+        </div>
+    </div>
+
+    <div class="img-container">
+        <div class="barnhouse">
+            <img src="barnhouse.jpg" alt="Barnhouse">
+            <div class="barn-text">
+                <h1>Barnhouse</h1>
+            </div>
+        </div>
+        <div class="brickhouse">
+            <img src="brickhouse.jpg" alt="Brickhouse">
+            <div class="brickhouse-text">
+                <h1>Brickhouse</h1>
+            </div>
+        </div>
+        <div class="summerhouse">
+            <img src="summerhouse.jpg" alt="Summerhouse">
+            <div class="summerhouse-text">
+                <h1>Summerhouse</h1>
+            </div>
+        </div>
+        <div class="renovated">
+            <img src="Renovated.jpg" alt="Renovated">
+            <div class="renovated-text">
+                <h1>Renovated</h1>
+            </div>
+        </div>
+        <div class="barnhouse1">
+            <img src="barnhouse1.jpg" alt="Barnhouse 1">
+            <div class="barnhouse1-text">
+                <h1>Barnhouse 1</h1>
+            </div>
+        </div>
+        <div class="renovated1">
+            <img src="Renovated1.jpg" alt="Renovated 1">
+            <div class="renovated1-text">
+                <h1>Renovated 1</h1>
+            </div>
+        </div>
+        <div class="brickhouse1">
+            <img src="brickhouse1.jpg" alt="Brickhouse 1">
+            <div class="brickhouse1-text">
+                <h1>Brickhouse 1</h1>
+            </div>
+        </div>
+        <div class="summerhouse1">
+            <img src="summerhouse1.jpg" alt="Summerhouse 1">
+            <div class="summerhouse1-text">
+                <h1>Summerhouse 1</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+    
+</html>
